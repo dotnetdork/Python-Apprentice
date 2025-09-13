@@ -1,16 +1,13 @@
 """
-Run this program to meet Tina the Turtle. Tina is a
-hexagon with legs and a head.
+Meet Tina the Turtle!
 
-You can run this program by:
+This program draws Tina, a turtle with a hexagon-shaped body, legs, and a head.
 
-1) clicking on ▶️ icon at the top of the editor
-window
-2) Hit the F5 function key
+How to run this program (2 options):
+1. Click the 'Run' (▶️) button at the top of your editor window OR the bottom left of this window.
+2. Press the F5 key (in editors like VS Code or Thonny; or GitHub Codespaces).
 
-You won't understand what this program is doing just
-yet, but don't worry, that's what you will be
-learning in the next few lessons.
+Don't worry if you don't understand all the code yet—future lessons will explain everything!
 """
 
 import turtle                           # Tell Python we want to work with the turtle
