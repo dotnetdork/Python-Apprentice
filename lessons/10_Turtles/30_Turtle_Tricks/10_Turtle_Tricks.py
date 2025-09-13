@@ -3,8 +3,6 @@ For this program, you will tell Tina the Turtle to draw a triangle.
 
 You should look at the previous programs to see how to use the turtle commands.
 Copy lines of code from those programs to this one to draw a triangle.
-
-
 """
 
 # These lines are needed in most turtle programs

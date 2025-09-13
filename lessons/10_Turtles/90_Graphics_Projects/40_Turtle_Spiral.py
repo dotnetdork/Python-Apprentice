@@ -1,18 +1,14 @@
 """Penta Spiral
 
 This program already works. See if you can change it to make it draw a different pattern.
-
 """
-
 
 import random
 import turtle
 
-
 # Returns a random color!
 def getRandomColor():
     return "#%06X" % (random.randint(0, 0xFFFFFF))
-
 
 window = turtle.Screen()
 window.bgcolor("white")
@@ -45,7 +41,6 @@ for i in range(50):
     myTurtle.width(i)
 
     # Check the pattern against the picture in the recipe. If it matches, you are done!
-
 
 turtle.done()
 

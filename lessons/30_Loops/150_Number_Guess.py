@@ -1,4 +1,5 @@
-""" Number Guess Game
+""" 
+Number Guess Game
 
 Pick a random number between 1 and 100. If the random number is divisible by 7,
 pick another number and continue picking new numbers until the random number is
@@ -25,9 +26,8 @@ Get a random number:
 Use the ask_integer function to get the user's guess, like this:
     guess = ask_integer("Guess a number between 1 and 100: ")
 
-NOTE! The prompts and output for your program will be in the teminal
+Note: The prompts and output for your program will be in the teminal
 at the bottom of the editor screen; this program does not use the GUI.
-
 """
 
 import random
@@ -40,7 +40,6 @@ def ask_integer(prompt):
         except ValueError:
             print("Please enter a valid number!")
 
-
 # Pick the random number
 
 # In your loop:
@@ -50,7 +49,7 @@ def ask_integer(prompt):
     # If the user's guess is divisible by 7, tell the user to start over
 
     # If the user's guess is too high, tell the user
+
     # If the user's guess is too low, tell the user
+    
     # If the user's guess is correct, tell the user and break out of the loop
-
-

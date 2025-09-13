@@ -1,12 +1,9 @@
 """
-The is a simple Turtle program that draws a square and writes a message. The
+This is a simple Turtle program that draws a square and writes a message. The
 lines that start with a # are comments. They are not executed by Python. The
 lines inside the three quotes are also comments, but of a different sort (
 called "doc comments" ) Comments are used to explain what the code does. Read
 the program and try to understand what each line does.
-
-
-
 """
 
 import turtle                           # Tell Python we want to work with the turtle
@@ -29,14 +26,13 @@ tina.pendown()                          # Put the pen down so we can draw
 ## Draw a Square
 ##
 
-
 tina.pencolor('blue')                   # Set the pen color to blue
 tina.forward(200)                       # Move tina forward by the forward distance
 tina.right(90)                          # Turn tina left by the left turn
 
 tina.pencolor('red')                    # Set the pen color to red
-tina.forward(200)                       # Continuie the last two steps three more times
-tina.right(90)                           # to draw a square
+tina.forward(200)                       # Continue the last two steps three more times
+tina.right(90)                          # to draw a square
 
 tina.pencolor('green')                  # Set the pen color to green
 tina.forward(200)
@@ -71,8 +67,6 @@ tina.left(90)                           # Turn tina left by 90 degrees
 tina.forward(20)                        # Move tina forward by 20
 tina.write("Why, hello there!")         # Write the message "Why, hello there!"
 tina.backward(20)                       # Move tina backward by 20
-
-
 
 turtle.exitonclick()                    # Close the window when we click on it  
 

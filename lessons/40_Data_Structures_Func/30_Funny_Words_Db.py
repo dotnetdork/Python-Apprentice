@@ -1,6 +1,7 @@
 from guizero import App, Box, Text, TextBox, PushButton, ListBox, error
 
-"""Funny Words Dictionary
+"""
+Funny Words Dictionary
 
 This program provides a graphical user interface (GUI) for managing a dictionary
 of funny words and their definitions. Users can add new definitions, delete
@@ -17,12 +18,9 @@ Selected' button will remove the definition from the dictionary.
 
 The module has a limit of storing up to 5 definitions. If the limit is reached,
 an error message will be displayed and new definitions will not be added.
-
 """
 
-
 # Implement the functions below
-
 
 def add_definition(db, key, value):
     """
@@ -82,7 +80,7 @@ def is_funny(definition):
 
 def update_listbox(db):
     """
-    Update the listbox with the current definitions in the database.1
+    Update the listbox with the current definitions in the database.
 
     Returns:
         list of str: A list of strings containing the definitions to be displayed in the listbox.
@@ -102,7 +100,7 @@ def update_listbox(db):
 
     return l
 
-################################################################
+# ================================================================
 
 # Function to add a definition
 
@@ -167,4 +165,3 @@ app.when_key_pressed = handle_enter
 _update_listbox(db) # Initial update of listbox
 
 app.display()
-

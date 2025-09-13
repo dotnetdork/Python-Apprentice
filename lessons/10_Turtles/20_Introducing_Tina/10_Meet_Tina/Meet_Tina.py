@@ -1,18 +1,16 @@
 """
-
 Run this program to meet Tina the Turtle. Tina is a
 hexagon with legs and a head.
 
 You can run this program by:
 
-1) clicking on ▶️ icon ar the top of the editor
+1) clicking on ▶️ icon at the top of the editor
 window
 2) Hit the F5 function key
 
 You won't understand what this program is doing just
 yet, but don't worry, that's what you will be
 learning in the next few lessons.
-
 """
 
 import turtle                           # Tell Python we want to work with the turtle

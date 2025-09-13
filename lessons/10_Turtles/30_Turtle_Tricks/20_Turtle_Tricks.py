@@ -4,8 +4,6 @@ a pentagon.
 
 You should look at the previous program, 02_Meet_Tina.py
 to see how to use the turtle commands.
-
-
 """
 
 # These lines are needed in most turtle programs
@@ -16,7 +14,6 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 # Use tina.forward() and tina.left() to draw a pentagon
 # Make each side of the pentagon a different color with 
 # tina.pencolor()
-
 
 ... # Your code here
 

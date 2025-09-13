@@ -1,4 +1,5 @@
-"""Fizzbuzz Grid
+"""
+FizzBuzz Grid
 
 We're going to use a Windowing library, guizero, to create a 10x10 grid of
 numbers, with each number in a separate cell, but we're also going to set the
@@ -24,9 +25,9 @@ Or to display a badger:
     Text(app, text='🦡', grid=[col, row], color=color)
 
 HINT: You can use % and // to get the first and last digit of a number, 
-our you can convert the number to a string and iterate over the digits
-
+or you can convert the number to a string and iterate over the digits
 """
+
 from guizero import App, Box, Text
 
 app = App("Numbers Grid", layout="grid")
@@ -36,7 +37,7 @@ app = App("Numbers Grid", layout="grid")
 
 # In the loop, calculate or increment the number
 
-# Use % determing the display, using fizzbuzz rules
+# Use % determining the display, using FizzBuzz rules
 
 # If you are displaying a number, calculate the sum of the digits and determine the color
 
