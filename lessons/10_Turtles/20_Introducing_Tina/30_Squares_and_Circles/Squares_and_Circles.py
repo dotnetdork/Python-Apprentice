@@ -1,9 +1,10 @@
 """
-This is a simple Turtle program that draws a square and writes a message. The
-lines that start with a # are comments. They are not executed by Python. The
-lines inside the three quotes are also comments, but of a different sort (
-called "doc comments" ) Comments are used to explain what the code does. Read
-the program and try to understand what each line does.
+This is a simple Turtle program that draws a circle inside of a square, and then it writes a message.
+The lines that start with a # are called comments, they are not executed by Python. 
+Comments are used by developers to explain exactly what each line of code does.
+The lines found inside three quotation marks (like these ones) are also comments, 
+but they are formally known as docstrings, or multi-line comments.
+Read this program's code and try to understand what each line does.
 """
 
 import turtle                           # Tell Python we want to work with the turtle
