@@ -1,5 +1,5 @@
 """
-This is a simple Turtle program that draws a circle inside of a square, and then it writes a message.
+This is a simple Turtle program that draws a circle inside of a square, and writes a message.
 The lines that start with a # are called comments, they are not executed by Python. 
 Comments are used by developers to explain exactly what each line of code does.
 The lines found inside three quotation marks (like these ones) are also comments, 
