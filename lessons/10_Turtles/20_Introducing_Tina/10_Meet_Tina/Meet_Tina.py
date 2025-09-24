@@ -1,13 +1,13 @@
 """
 Meet Tina the Turtle!
 
-This program draws Tina, a turtle with a hexagon-shaped body, legs, and a head.
+This program draws Tina: a turtle with a hexagon-shaped green shell, four brown legs, a head, and a tail.
 
-How to run this program (2 options):
-1. Click the 'Run' (▶️) button at the top of your editor window OR the bottom left of this window.
-2. Press the F5 key (in editors like VS Code or Thonny; or GitHub Codespaces).
+How to run this program:
+1. Click the 'Run' (▶) button at the top of your editor window or in the bottom left corner.
+2. Or, press the F5 key (in editors like VS Code, Thonny, or GitHub Codespaces).
 
-Don't worry if you don't understand all the code yet—future lessons will explain everything!
+Don't worry if you don't understand all the code yet—future lessons will explain everything step by step!
 """
 
 import turtle                           # Tell Python we want to work with the turtle
