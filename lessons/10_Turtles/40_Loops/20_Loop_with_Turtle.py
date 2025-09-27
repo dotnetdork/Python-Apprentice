@@ -1,8 +1,17 @@
 """
-Turtles with a loop. 
+# 20_Loop_with_Turtle.py
 
-This program has four identical lines of code to draw a square, 
-but you know you can use a loop to make the program simpler. 
+This program currently uses four pairs of lines to move and turn the turtle,
+drawing each side of a square individually.
+
+In this exercise, you will modify the program to use a loop to draw the square instead.
+
+Objectives:
+- Replace the repeated movement and turning lines with a loop that runs four times.
+- The loop should move the turtle forward and then turn it left to draw each side of the square.
+- This will make the code shorter and easier to read.
+
+Hint: Use a for loop to repeat the actions for each side of the square.
 """
 
 import turtle                           # Tell Python we want to work with the turtle

@@ -1,10 +1,12 @@
 """
-This is a simple Turtle program that draws a circle inside of a square, and writes a message.
-The lines that start with a # are called comments, they are not executed by Python. 
-Comments are used by developers to explain exactly what each line of code does.
-The lines found inside three quotation marks (like these ones) are also comments, 
-but they are formally known as docstrings, or multi-line comments.
-Read this program's code and try to understand what each line does.
+# Squares_and_Circles.py
+
+This Turtle program demonstrates basic drawing and text output in Python.
+It draws a colored square, places a filled circle inside it, and writes a message on the screen.
+Lines starting with # are single-line comments, used to describe what each part of the code does.
+Text enclosed in triple quotes (like this) is a docstring, which provides a multi-line explanation at the top of the file.
+
+Review each section to see how the turtle is moved, how shapes are drawn, and how text is displayed.
 """
 
 import turtle                           # Tell Python we want to work with the turtle
@@ -73,4 +75,4 @@ turtle.exitonclick()                    # Close the window when we click on it
 
 # You're on your way, soon you'll be writing your own programs!
 # But first, let's save your progress. Continue with 
-# the next file, 03_Check_In_Your_Code.ipynb
+# the next file, 40_Check_In_Your_Code.ipynb

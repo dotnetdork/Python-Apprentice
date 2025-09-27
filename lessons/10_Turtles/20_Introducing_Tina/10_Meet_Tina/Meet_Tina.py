@@ -1,5 +1,5 @@
 """
-Meet Tina the Turtle!
+# Meet_Tina.py
 
 This program draws Tina: a turtle with a hexagon-shaped green shell, four brown legs, a head, and a tail.
 

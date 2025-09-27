@@ -1,12 +1,15 @@
 """
-For this program, you will tell Tina the Turtle to draw 
-multiple shapes.
+# 30_Turtle_Tricks.py
 
-Draw two circles, filled with different colors, 
-and in different places on the screen. 
+In this assignment, you will use Tina the Turtle to draw multiple shapes on the screen.
 
-You should look at the previous program, 02_Meet_TIna.py
-to see how to use the turtle commands.
+Objectives:
+- Draw two circles, each filled with a different color.
+- Position the circles in different locations on the screen (they should not overlap).
+- Use the turtle commands: begin_fill(), end_fill(), fillcolor(), circle(), and goto() to complete the task.
+- Challenge yourself to experiment with different colors and positions!
+
+Refer to the previous program, Meet_Tina.py for examples of how to use these turtle commands.
 """
 
 # These lines are needed in most turtle programs
