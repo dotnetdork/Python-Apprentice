@@ -1,4 +1,3 @@
-
 *.class
 Level1-Module3/_01_gui_app_bindings/_c_PigLatinTranslator/__pycache__/PigLatinConverter.cpython-38.pyc
 *.xml
@@ -10,8 +9,6 @@ Level1-Module3/_01_gui_app_bindings/_c_PigLatinTranslator/__pycache__/PigLatinCo
 .venv
 .idea
 .idea/workspace.xml
-
-
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
