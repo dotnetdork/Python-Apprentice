@@ -20,6 +20,7 @@ canvas_width = 750         # Width of the turtle canvas
 canvas_height = 250        # Height of the turtle canvas
 start_x = -300             # Starting X position of the canvas
 start_y = -50              # Starting Y position of the canvas
+time_sleep = 0.1           # Time to wait for canvas rendering
 # ---------------------
 
 import time # Might not be necessary, but used for sleep
@@ -32,68 +33,92 @@ try:
 
     # 2. Define a NEW Turtle class that overrides the original for custom behavior
     class turtle(Turtle):
+        """
+        Custom Turtle class that remaps the coordinate system.
+        The student's (0, 0) is now our (START_X, START_Y).
+        
+        This class overrides all position-related methods to 
+        translate between the student's "relative" coordinates
+        and the canvas's "absolute" coordinates.
+        """
+        
+        def __init__(self, screen=None, *args, **kwargs):
             """
-            Custom Turtle class that remaps the coordinate system.
-            The student's (0, 0) is now our (start_x, start_y).
+            Initializes the turtle and moves it instantly
+            to the new (0, 0) origin point.
             """
-            def __init__(self, screen=None, *args, **kwargs):
-                # Store the new "origin"
-                self._origin_x = start_x
-                self._origin_y = start_y
+            # Store the new origin offset
+            self._origin_x = start_x
+            self._origin_y = start_y
 
-                # Call the original __init__ to create the turtle
-                super().__init__(screen, *args, **kwargs)
-                
-                # --- Set the default starting position ---
-                # We use super().goto() to move to the *absolute* start
-                self.penup()
-                super().goto(self._origin_x, self._origin_y)
-                self.pendown()
-
-            ### --- OVERRIDDEN METHODS (Coordinate Remapping) --- ###
-
-            def goto(self, x, y):
-                """Moves the turtle to a (student) coordinate."""
-                # Translate student's (x, y) to absolute (real_x, real_y)
-                real_x = x + self._origin_x
-                real_y = y + self._origin_y
-                # Call the original goto
-                super().goto(real_x, real_y)
+            # Call the original __init__ to create the turtle
+            super().__init__(screen, *args, **kwargs)
             
-            # setposition is an alias for goto
-            def setposition(self, x, y=None):
-                self.goto(x, y)
+            # --- Set the default starting position (instantly) ---
+            original_speed = self.speed()    # Save original speed
+            self.speed(0)                    # Set to instant
+            self.penup()
+            super().goto(self._origin_x, self._origin_y) # Move to *absolute* start
+            self.pendown()
+            self.speed(original_speed)       # Restore original speed
 
-            def setx(self, x):
-                """Sets the turtle's (student) x coordinate."""
-                real_x = x + self._origin_x
-                super().setx(real_x)
+        # --- Private Helper Methods ---
+        
+        def _to_absolute(self, x, y):
+            """Converts student's relative (x, y) to absolute canvas coordinates."""
+            return (x + self._origin_x, y + self._origin_y)
 
-            def sety(self, y):
-                """Sets the turtle's (student) y coordinate."""
-                real_y = y + self._origin_y
-                super().sety(real_y)
+        def _to_relative(self, x, y):
+            """Converts absolute canvas (x, y) to student's relative coordinates."""
+            return (x - self._origin_x, y - self._origin_y)
 
-            def position(self):
-                """Returns the turtle's (student) position."""
-                # Get the *absolute* position
-                abs_x, abs_y = super().position()
-                # Translate to student's *relative* position
-                rel_x = abs_x - self._origin_x
-                rel_y = abs_y - self._origin_y
-                return (rel_x, rel_y)
-            
-            # pos is an alias for position
-            def pos(self):
-                return self.position()
+        # --- Overridden Position & Movement Methods ---
 
-            def xcor(self):
-                """Returns the turtle's (student) x coordinate."""
-                return self.position()[0]
+        def goto(self, x, y):
+            """Moves the turtle to a (student) coordinate."""
+            abs_x, abs_y = self._to_absolute(x, y)
+            super().goto(abs_x, abs_y)
+        
+        def setposition(self, x, y=None):
+            """Alias for goto."""
+            # This handles the case where setposition is called with one arg (a tuple)
+            # or two args (x, y). Standard turtle behavior.
+            if y is None:
+                try:
+                    x, y = x
+                except TypeError:
+                    # Handle error or just pass to goto to raise it
+                    pass
+            self.goto(x, y)
 
-            def ycor(self):
-                """Returns the turtle's (student) y coordinate."""
-                return self.position()[1]
+        def setx(self, x):
+            """Sets the turtle's (student) x coordinate."""
+            abs_x = x + self._origin_x
+            super().setx(abs_x)
+
+        def sety(self, y):
+            """Sets the turtle's (student) y coordinate."""
+            abs_y = y + self._origin_y
+            super().sety(abs_y)
+
+        def position(self):
+            """Returns the turtle's (student) position."""
+            abs_x, abs_y = super().position()
+            return self._to_relative(abs_x, abs_y)
+        
+        def pos(self):
+            """Alias for position."""
+            return self.position()
+
+        def xcor(self):
+            """Returns the turtle's (student) x coordinate."""
+            abs_x = super().xcor()
+            return abs_x - self._origin_x
+
+        def ycor(self):
+            """Returns the turtle's (student) y coordinate."""
+            abs_y = super().ycor()
+            return abs_y - self._origin_y
         
     # 3. Create a Canvas for the turtle to draw on
     myCanvas = Canvas(width=canvas_width, height=canvas_height)
@@ -102,7 +127,7 @@ try:
     display(myCanvas)
 
     # 5. Wait a moment to ensure the canvas is fully rendered
-    time.sleep(1) 
+    time.sleep(time_sleep)
 
     # 6. Create a TurtleScreen
     myTS = TurtleScreen(myCanvas)
