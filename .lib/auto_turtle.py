@@ -28,9 +28,11 @@ import time # Might not be necessary, but used for sleep
 try:
     # 1. Import the main library and necessary classes
     import ipyturtle3 as turtle
+    import sys, types
     from ipyturtle3 import Canvas, TurtleScreen, Turtle
     from IPython.display import display
 
+    turtle = types.ModuleType("turtle") # Make a fake 'turtle' module
     # 2. Define a NEW Turtle class that overrides the original for custom behavior
     class turtle(Turtle):
         """
@@ -41,7 +43,6 @@ try:
         translate between the student's "relative" coordinates
         and the canvas's "absolute" coordinates.
         """
-        
         def __init__(self, screen=None, *args, **kwargs):
             """
             Initializes the turtle and moves it instantly
@@ -119,6 +120,9 @@ try:
             """Returns the turtle's (student) y coordinate."""
             abs_y = super().ycor()
             return abs_y - self._origin_y
+        
+        turtle.Turtle = Turtle          # This puts the class in the fame module
+        sys.modules["turtle"] = turtle  # This allows "import turtle" to work. 
         
     # 3. Create a Canvas for the turtle to draw on
     myCanvas = Canvas(width=canvas_width, height=canvas_height)
