@@ -15,6 +15,8 @@ When used with %run, it will:
 6. Create a TurtleScreen for the canvas named 'myTS'.
 """
 
+import time # Might not be necessary, but used for sleep
+
 # --- Configuration ---
 canvas_width = 750         # Width of the turtle canvas
 canvas_height = 250        # Height of the turtle canvas
@@ -22,8 +24,6 @@ start_x = -300             # Starting X position of the canvas
 start_y = -50              # Starting Y position of the canvas
 time_sleep = 0.1           # Time to wait for canvas rendering
 # ---------------------
-
-import time # Might not be necessary, but used for sleep
 
 try:
     # 1. Import the main library and necessary classes
