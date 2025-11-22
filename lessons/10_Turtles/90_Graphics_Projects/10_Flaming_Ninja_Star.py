@@ -1,4 +1,5 @@
-"""Flaming Ninja Star
+"""
+# 10_Flaming_Ninja_Star.py
 
 This program already works; run it to see what it does. 
 Then change it to make it draw a different pattern. 

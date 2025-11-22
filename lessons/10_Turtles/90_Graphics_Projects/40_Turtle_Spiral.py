@@ -1,4 +1,5 @@
-"""Penta Spiral
+"""
+# 40_Turtle_Spiral.py
 
 This program already works. See if you can change it to make it draw a different pattern.
 """
