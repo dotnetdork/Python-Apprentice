@@ -1,6 +1,6 @@
 """
 Copy the code from the previous lesson, 10_More_Turtle_programs.ipynb, 
-from the section " Clicking the Turtle Directly"
+from the section "Clicking the Turtle Directly"
 
 Then change the code so that the turtle has a different image ( look in the 'images'
 directory ) and when you click on it, it moves to a random location on the screen.
