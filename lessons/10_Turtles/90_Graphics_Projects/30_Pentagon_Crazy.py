@@ -2,6 +2,9 @@
 # 30_Pentagon_Crazy.py
 
 This program already works. Run it, then change it to make it draw a different pattern.
+
+uid: QG1OFNKY
+name: Pentagon Crazy
 """
 
 import random

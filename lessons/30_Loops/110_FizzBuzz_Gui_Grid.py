@@ -24,8 +24,11 @@ Or to display a badger:
     
     Text(app, text='🦡', grid=[col, row], color=color)
 
-HINT: You can use % and // to get the first and last digit of a number, 
 or you can convert the number to a string and iterate over the digits
+
+HINT: You can use % and // to get the first and last digit of a number,
+uid: cKjBvzzU
+name: Fizzbuzz Gui Grid
 """
 
 from guizero import App, Box, Text

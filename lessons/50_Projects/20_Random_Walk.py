@@ -1,9 +1,12 @@
-""" A simple turtle program that moves the turtle randomly in the grid 
+"""
+A simple turtle program that moves the turtle randomly in the grid 
 
 This program will perform a "random walk" by moving the turtle randomly in the grid.
 
 Implement the random_walk function that will move the turtle randomly in the grid.
 
+uid: eefj8Ioy
+name: Random Walk
 """
 
 import turtle

@@ -18,6 +18,9 @@ messagebox.showerror()
 For the number, you can ask for a float or an integer with
 simpledialog.askfloat() or simpledialog.askinteger(), and for the math operation
 you can ask for a string with simpledialog.askstring().
+
+uid: ZfzBcb1j
+name: Infuriating Calculator
 """
 
 # Import the required modules

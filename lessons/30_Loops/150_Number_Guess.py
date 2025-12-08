@@ -1,4 +1,4 @@
-""" 
+"""
 Number Guess Game
 
 Pick a random number between 1 and 100. If the random number is divisible by 7,
@@ -26,8 +26,11 @@ Get a random number:
 Use the ask_integer function to get the user's guess, like this:
     guess = ask_integer("Guess a number between 1 and 100: ")
 
-Note: The prompts and output for your program will be in the teminal
 at the bottom of the editor screen; this program does not use the GUI.
+
+Note: The prompts and output for your program will be in the teminal
+uid: rZO9PHOt
+name: Number Guess
 """
 
 import random

@@ -1,3 +1,10 @@
+"""
+# 50_Tic_Tac_Toe.py
+
+uid: mNMfKPiT
+name: Tic Tac Toe
+"""
+
 #imports
 from guizero import App, Box, PushButton, Text, info
 

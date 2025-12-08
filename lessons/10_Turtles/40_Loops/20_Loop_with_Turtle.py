@@ -6,8 +6,10 @@ drawing each side of a square individually.
 
 In this exercise, you will modify the program to use a loop to draw the square instead.
 
-Objectives:
 - Replace the repeated movement and turning lines with a for loop that runs four times.
+
+uid: 85lNu5qj
+name: Loop With Turtle
 """
 
 import turtle                           # Tell Python we want to work with the turtle

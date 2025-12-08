@@ -1,13 +1,14 @@
-
 """
 # 30_Efficient_Turtle.py
 
 In this program, use what you've learned about functions and variables to make a program that can draw a square, pentagon, and hexagon with a single function.
 
-Objectives:
 - Create a function that draws a polygon based on the number of sides passed to it as an argument.
 - Use variables to calculate the angle needed to turn the turtle based on the number of sides.
 - Call the function multiple times with different arguments to draw a square, pentagon, and hexagon.
+
+uid: xvDQudwV
+name: Efficient Turtle
 """
 
 import turtle                            # Tell Python we want to work with the turtle

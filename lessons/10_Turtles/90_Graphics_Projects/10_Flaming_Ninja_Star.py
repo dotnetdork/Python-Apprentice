@@ -2,7 +2,10 @@
 # 10_Flaming_Ninja_Star.py
 
 This program already works; run it to see what it does. 
-Then change it to make it draw a different pattern. 
+Then change it to make it draw a different pattern.
+
+uid: ejUIkGvk
+name: Flaming Ninja Star
 """
 
 import random

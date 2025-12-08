@@ -12,7 +12,11 @@ For the numbers from 1 to 30:
 Your job is to modify only one line -- the one with range() 
 -- so that the program only prints '🦡 badger'
 
-Your program should print 4 badgers. 
+Your program should print 4 badgers.
+
+hint: run the program once and look at the numbers that are printed.
+uid: U1uGzJ1r
+name: Fizz Buzz Badgers
 """
 
 for i in range(1, 31): # Change only this line

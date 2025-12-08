@@ -3,11 +3,13 @@
 
 In this exercise, you will use Tina the Turtle to draw an equilateral triangle.
 
-Objectives:
 - Use the commands: tina.forward() and tina.left() to draw the three sides of the triangle.
 - Change the pen color before drawing each side using tina.pencolor(), so each side is a different color.
 
 Refer to previous turtle programs for examples of how to use these commands.
+
+uid: H5P0FcIJ
+name: Turtle Tricks
 """
 
 # These lines are needed in most turtle programs

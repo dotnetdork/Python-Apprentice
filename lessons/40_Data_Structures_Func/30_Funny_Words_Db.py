@@ -1,3 +1,8 @@
+"""
+uid: VenVwSQz
+name: Funny Words Db
+"""
+
 from guizero import App, Box, Text, TextBox, PushButton, ListBox, error
 
 """
