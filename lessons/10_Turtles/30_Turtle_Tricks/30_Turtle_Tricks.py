@@ -9,9 +9,6 @@ In this assignment, you will use Tina the Turtle to draw multiple shapes on the 
 - Challenge yourself to experiment with different colors and positions!
 
 Refer to the previous program, Meet_Tina.py for examples of how to use these turtle commands.
-
-uid: TMoSqbTM
-name: Turtle Tricks
 """
 
 # These lines are needed in most turtle programs

@@ -7,9 +7,6 @@ In this assignment, you will use Tina the Turtle to draw a pentagon.
 - Use the turtle commands: tina.forward(), tina.left(), and tina.pencolor() to accomplish this.
 
 Refer to the previous program, Meet_Tina.py, for examples of how to use turtle commands.
-
-uid: jIpnMhwi
-name: Turtle Tricks
 """
 
 # These lines are needed in most turtle programs
