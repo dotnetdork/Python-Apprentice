@@ -121,22 +121,25 @@ modules:
 - name: Types and Logic
   uid: ryHvW6vk
   lessons:
-  - name: Numbers and Strings
+  - name: Types and Operators
     uid: HXQZ0Iui
-    exercise: 20_Types_and_Logic/10_Numbers_and_Strings.ipynb
+    exercise: 20_Types_and_Logic/10_Types_and_Operators.ipynb
+  - name: Working With Numbers
+    uid: b1Q9Y1j1
+    exercise: 20_Types_and_Logic/20_Working_With_Numbers.ipynb
   - name: Control Flow
     uid: g6JPkFUs
-    exercise: 20_Types_and_Logic/20_Control_Flow.ipynb
+    exercise: 20_Types_and_Logic/30_Control_Flow.ipynb
   - name: My Ages
-    exercise: 20_Types_and_Logic/30_My_Ages.py
+    exercise: 20_Types_and_Logic/40_My_Ages.py
     display: true
   - name: Simple Adder
-    exercise: 20_Types_and_Logic/40_Simple_Adder.py
+    exercise: 20_Types_and_Logic/50_Simple_Adder.py
   - name: Infuriating Calculator
-    exercise: 20_Types_and_Logic/50_Infuriating_Calculator.py
+    exercise: 20_Types_and_Logic/60_Infuriating_Calculator.py
   - name: Code Challenges
     uid: jJI6aomB
-    exercise: 20_Types_and_Logic/60_Code_Challenges.ipynb
+    exercise: 20_Types_and_Logic/70_Code_Challenges.ipynb
 - name: Loops
   uid: TzgRqJlw
   lessons:

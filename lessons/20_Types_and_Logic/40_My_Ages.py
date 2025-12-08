@@ -26,10 +26,6 @@ Here is how you show the user a message window. The first parameter is the title
 the second is the message to show the user.
 
 messagebox.showinfo('What you are', "You are a baby.")
-
-TODO: 
-uid: ngBHdtPY
-name: My Ages
 """
 
 from tkinter import messagebox, simpledialog, Tk # import required modules
