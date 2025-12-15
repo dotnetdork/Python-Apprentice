@@ -121,9 +121,9 @@ modules:
 - name: Types and Logic
   uid: ryHvW6vk
   lessons:
-  - name: Types and Operators
+  - name: Operators and Types
     uid: HXQZ0Iui
-    exercise: 20_Types_and_Logic/10_Types_and_Operators.ipynb
+    exercise: 20_Types_and_Logic/10_Operators_and_Types.ipynb
   - name: String Operations
     uid: K1jP2RdA
     exercise: 20_Types_and_Logic/20_String_Operations.ipynb
