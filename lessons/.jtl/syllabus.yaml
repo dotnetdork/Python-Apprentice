@@ -152,7 +152,7 @@ modules:
   - name: Loops with Range
     uid: WcGpR3Xg
     exercise: 30_Loops/20_Loops_with_Range.ipynb
-  - name: Lists
+  - name: Looping Through Lists
     uid: 7zsKa84X
     exercise: 30_Loops/30_Looping_Through_Lists.ipynb
   - name: Crazy Tina
