@@ -154,7 +154,7 @@ modules:
     exercise: 30_Loops/20_Loops_with_Range.ipynb
   - name: Lists
     uid: 7zsKa84X
-    exercise: 30_Loops/30_Lists.ipynb
+    exercise: 30_Loops/30_Looping_Through_Lists.ipynb
   - name: Crazy Tina
     exercise: 30_Loops/40_Crazy_Tina.py
     display: true
