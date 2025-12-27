@@ -148,29 +148,29 @@ modules:
   lessons:
   - name: Iteration
     uid: ITpqcvxv
-    exercise: 30_Loops/010_Iteration.ipynb
+    exercise: 30_Loops/10_Iteration.ipynb
   - name: Loops with Range
     uid: WcGpR3Xg
-    exercise: 30_Loops/020_Loops_with_Range.ipynb
+    exercise: 30_Loops/20_Loops_with_Range.ipynb
   - name: Lists
     uid: 7zsKa84X
-    exercise: 30_Loops/030_Lists.ipynb
+    exercise: 30_Loops/30_Lists.ipynb
   - name: Crazy Tina
-    exercise: 30_Loops/040_Crazy_Tina.py
+    exercise: 30_Loops/40_Crazy_Tina.py
     display: true
   - name: Tuples
     uid: 9zTQza2e
-    exercise: 30_Loops/050_Tuples.ipynb
+    exercise: 30_Loops/50_Tuples.ipynb
   - name: Indexing and Slicing
     uid: P27f2L8k
-    exercise: 30_Loops/060_Indexing_and_Slicing.ipynb
+    exercise: 30_Loops/60_Indexing_and_Slicing.ipynb
   - name: List Story
-    exercise: 30_Loops/070_List_Story.py
+    exercise: 30_Loops/70_List_Story.py
   - name: Strings
     uid: Tmg4QRhJ
-    exercise: 30_Loops/080_Strings.ipynb
+    exercise: 30_Loops/80_Strings.ipynb
   - name: Fizz Buzz Badgers
-    exercise: 30_Loops/090_Fizz_Buzz_Badgers.py
+    exercise: 30_Loops/90_Fizz_Buzz_Badgers.py
   - name: For Loop Gauntlet
     uid: 8yGSkBgV
     exercise: 30_Loops/100_For_Loop_Gauntlet.ipynb
