@@ -4,4 +4,5 @@ guizero
 pillow
 IPython
 ipykernel
+ipyturtle3
 invoke
