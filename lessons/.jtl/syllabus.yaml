@@ -118,6 +118,9 @@ modules:
     - name: Turtle Spiral
       exercise: 10_Turtles/90_Graphics_Projects/40_Turtle_Spiral.py
       display: true
+  - name: Module One Quiz
+    uid: QvJp7kYB
+    exercise: 10_Turtles/Module_One_Quiz.ipynb
 - name: Types and Logic
   uid: ryHvW6vk
   lessons:
@@ -143,6 +146,9 @@ modules:
   - name: Code Challenges
     uid: jJI6aomB
     exercise: 20_Types_and_Logic/80_Code_Challenges.ipynb
+  - name: Module Two Quiz
+    uid: NZt4sXmo
+    exercise: 20_Types_and_Logic/Module_Two_Quiz.ipynb
 - name: Loops
   uid: TzgRqJlw
   lessons:
@@ -191,6 +197,9 @@ modules:
   - name: Extras
     uid: VJSgvOr5
     exercise: 30_Loops/160_Extras.ipynb
+  - name: Module Three Quiz
+    uid: L2cMhRfP
+    exercise: 30_Loops/Module_Three_Quiz.ipynb
 - name: Data Structures Func
   uid: fDPxSid0
   lessons:
@@ -209,6 +218,9 @@ modules:
   - name: Tic Tac Toe
     exercise: 40_Data_Structures_Func/50_Tic_Tac_Toe.py
     display: true
+  - name: Module Four Quiz
+    uid: bX9eUdqT
+    exercise: 40_Data_Structures_Func/Module_Four_Quiz.ipynb
 - name: Projects
   uid: rLq5eVeW
   lessons:
