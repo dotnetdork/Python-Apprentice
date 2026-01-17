@@ -188,7 +188,7 @@ modules:
     exercise: 30_Loops/120_More_Iterables.ipynb
   - name: Iterable Turtle
     uid: vTyp2WhX
-    exercise: 30_Loops/130_Iterable_Turtle.ipynb
+    exercise: 30_Loops/130_Iterable_Turtle.py
   - name: More Loops
     uid: RMSFNtMb
     exercise: 30_Loops/140_More_Loops.ipynb
