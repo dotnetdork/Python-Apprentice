@@ -206,17 +206,20 @@ modules:
   - name: Functions
     uid: 4LyScnS5
     exercise: 40_Data_Structures_Func/10_Functions.ipynb
+  - name: Exceptions
+    uid: 87Ie2JGb
+    exercise: 40_Data_Structures_Func/20_Exceptions.ipynb
   - name: Dicts Sets
     uid: VXQdZcqg
-    exercise: 40_Data_Structures_Func/20_Dicts_Sets.ipynb
+    exercise: 40_Data_Structures_Func/30_Dicts_Sets.ipynb
   - name: Funny Words Db
-    exercise: 40_Data_Structures_Func/30_Funny_Words_Db.py
+    exercise: 40_Data_Structures_Func/40_Funny_Words_Db.py
     display: true
   - name: Splat Comprehension
     uid: mU94qia6
-    exercise: 40_Data_Structures_Func/40_Splat_Comprehension.ipynb
+    exercise: 40_Data_Structures_Func/50_Splat_Comprehension.ipynb
   - name: Tic Tac Toe
-    exercise: 40_Data_Structures_Func/50_Tic_Tac_Toe.py
+    exercise: 40_Data_Structures_Func/60_Tic_Tac_Toe.py
     display: true
   - name: Module Four Quiz
     uid: bX9eUdqT
